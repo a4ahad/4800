@@ -11,18 +11,17 @@
 	<div class="row">
 		<div class="span4">
 		<h4>Contact Details</h4>
-		<p>	18 Fresno,<br/> CA 93727, USA
+		<p>	47 'A' Block,Main Road,<br/>  Uposhohor, Sylhet.
 			<br/><br/>
-			info@bootsshop.com<br/>
-			﻿Tel 123-456-6780<br/>
-			Fax 123-456-5679<br/>
-			web:bootsshop.com
+			foodieforu@gmail.com<br/>
+			﻿Tel 01611141393<br/>
+			web: foodie.com
 		</p>
 		</div>
 
 		<div class="span4">
 		<h4>Opening Hours</h4>
-			<h5> Monday - Friday</h5>
+			<h5> Friday - Monday</h5>
 			<p>09:00am - 09:00pm<br/><br/></p>
 			<h5>Saturday</h5>
 			<p>09:00am - 07:00pm<br/><br/></p>
@@ -61,10 +60,9 @@
 	</div>
 	<div class="row">
 	<div class="span12">
-	<iframe style="width:100%; height:300; border: 0px" scrolling="no" src="https://maps.google.co.uk/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=18+California,+Fresno,+CA,+United+States&amp;aq=0&amp;oq=18+California+united+state&amp;sll=39.9589,-120.955336&amp;sspn=0.007114,0.016512&amp;ie=UTF8&amp;hq=&amp;hnear=18,+Fresno,+California+93727,+United+States&amp;t=m&amp;ll=36.732762,-119.695787&amp;spn=0.017197,0.100336&amp;z=14&amp;output=embed"></iframe><br />
-	<small><a href="https://maps.google.co.uk/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=18+California,+Fresno,+CA,+United+States&amp;aq=0&amp;oq=18+California+united+state&amp;sll=39.9589,-120.955336&amp;sspn=0.007114,0.016512&amp;ie=UTF8&amp;hq=&amp;hnear=18,+Fresno,+California+93727,+United+States&amp;t=m&amp;ll=36.732762,-119.695787&amp;spn=0.017197,0.100336&amp;z=14" style="color:#0000FF;text-align:left">View Larger Map</a></small>
-	</div>
-	</div>
+		<iframe style="width:100%; height:300; border: 3px" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1395.4034518665321!2d91.89081563928983!3d24.890176693625325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1654402611477!5m2!1sen!2sbd" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+		</div>
 </div>
 </div>
 

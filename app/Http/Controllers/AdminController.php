@@ -14,7 +14,6 @@ class AdminController extends Controller
         return view('admin.login');
     }
 
-
     public function makeLogin(Request $request){
         $data = array(
             'email' => $request->email,
@@ -23,9 +22,17 @@ class AdminController extends Controller
         );
 
         if (Auth::attempt($data)){
-            echo "Login Success";
+            return redirect() -> route('admin.dashboard');
         }else{
             return back()->withErrors(['message'=>'Invalid email or password']);
         }
+    }
+    public function dashboard(){
+        return view('admin.dashboard');
+    }
+
+    public function logout(){
+        Auth::logout();
+        return redirect()->route('admin.login');
     }
 }

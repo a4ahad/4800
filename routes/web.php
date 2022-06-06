@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BaseController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\CategoryController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -33,3 +35,11 @@ Route::get('/contact-us', [BaseController::class,'contact'])->name('contact');
 //admin login
 Route::get('/admin/login', [AdminController::class,'login'])->name('admin.login');
 Route::post('/admin/login', [AdminController::class,'makeLogin'])->name('admin.makeLogin');
+
+
+Route::group(['middleware' =>'auth'],function (){
+    Route::get('/admin/dashboard', [AdminController::class,'dashboard'])->name('admin.dashboard');
+    Route::get('/admin/logout', [AdminController::class,'logout'])->name('admin.logout');
+//    category controller route
+    Route::get('/category/add',[CategoryController::class,'create'])->name('category.create');
+});
