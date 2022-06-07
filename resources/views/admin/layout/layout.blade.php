@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" href="{{ asset("/images/favicon.ico") }}" type="image/ico" />
 
-    <title>Gentelella Alela! | </title>
+    <title>Foodie | admin</title>
 
     <!-- Bootstrap -->
     <link href="{{ asset("admin_theme/vendors/bootstrap/dist/css/bootstrap.min.css") }}" rel="stylesheet">

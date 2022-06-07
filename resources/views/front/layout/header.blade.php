@@ -4,8 +4,8 @@
             <div class="span6">Welcome!<strong> User</strong></div>
             <div class="span6">
                 <div class="pull-right">
-                    <a href="{{route('cart')}}"><span class="">Fr</span></a>
-                    <a href="{{route('cart')}}"><span class="">Es</span></a>
+                    {{-- <a href="{{route('cart')}}"><span class="">Fr</span></a> --}}
+                    {{-- <a href="{{route('cart')}}"><span class="">Es</span></a> --}}
                     <span class="btn btn-mini">En</span>
                     <a href="{{route('cart')}}"><span>&pound;</span></a>
                     <span class="btn btn-mini">$155.00</span>

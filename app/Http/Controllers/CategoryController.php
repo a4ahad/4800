@@ -24,7 +24,8 @@ class CategoryController extends Controller
      */
     public function create()
     {
-        return view('admin.category.add');
+        $catagories = Category::whereNull('category_id')->get();
+        return view('admin.category.add',compact('categories'));
     }
 
     /**
@@ -35,7 +36,12 @@ class CategoryController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $data = array(
+            'name' => $request->name,
+            'category_id' => $request->category_id,
+
+        );
+        $create = Category::create($data);
     }
 
     /**

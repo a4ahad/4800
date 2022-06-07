@@ -14,19 +14,7 @@ indent_size = 4
 indent_style = space
 indent_size = 4
 
-[**.less]
-indent_style = space
-indent_size = 4
-
-[**.styl]
-indent_style = space
-indent_size = 4
-
 [**.html]
-indent_style = space
-indent_size = 4
-
-[**.tpl]
 indent_style = space
 indent_size = 4
 
